@@ -6,9 +6,8 @@
 all: PutHTML
 
 PutHTML:
-	cp temperature.html /var/www/html/main/
-	cp temperature.css /var/www/html/main/
-	cp temperature.js /var/www/html/main/
+	cp main.html /var/www/html/main/
+	cp styles.css /var/www/html/main/
 
 	echo "Current contents of your HTML directory: "
 	ls -l /var/www/html/main/
