@@ -16,6 +16,7 @@ PutHTML:
 	cp facebook.png /var/www/html/main/
 	cp images.jpeg /var/www/html/main/
 	cp twitter.webp /var/www/html/main/
+	cp images /var/www/html/main/
 
 	echo "Current contents of your HTML directory: "
 	ls -l /var/www/html/main/
